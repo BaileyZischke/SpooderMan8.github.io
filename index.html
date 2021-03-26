@@ -11,7 +11,7 @@
     <p id = "a" style= font-size:100px;text-align:center >HI ZACH</p>
     
     
-    <img id = "b" src = C:\Users\zisch\Pictures/WavingHand.jfif
+    <img id = "b" src = Images/WavingHand.jfif
     width="150" height="150" >
     
     <style> 
@@ -30,14 +30,14 @@
 
 function YouSuck(){
     document.getElementById("a").innerHTML = "You Suck"
-    document.getElementById("b").src = "C:/Users/zisch/Pictures/MiddleFinger.jfif"
+    document.getElementById("b").src = "Images/MiddleFinger.jfif"
     document.getElementById("c").innerHTML = '<div style = font-size:80px;text-align:center><button id = "c" type =button onclick = "Sorry()" >Click Me Again</button></div>'
 
 }
 
 function Sorry(){
     document.getElementById("a").innerHTML = "Sorry"
-    document.getElementById("b").src = "C:/Users/zisch/Pictures/Sorry.jfif"
+    document.getElementById("b").src = "Images/Sorry.jfif"
     document.getElementById("c").style.visibility = 'hidden'
     document.getElementById("d").style.visibility = 'visible'
 }
@@ -53,7 +53,7 @@ function PartyTime(){
    let countdown = setInterval(function() {if(document.getElementById("a").innerHTML <= 1 ) { console.log("yomama")
         
     
-    document.getElementById("b").src = "C:/Users/zisch/Pictures/DiscoMan.jfif"
+    document.getElementById("b").src = "Images/DiscoMan.jfif"
     document.getElementById("b").style.visibility = 'visible'
     
     clearTimeout(countdown)
